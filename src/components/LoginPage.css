@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg,  #ffffff 100%);
 }
 
 .login-card {
@@ -43,35 +43,35 @@
     top: 10px;
     left: 0;
     font-size: 16px;
-    color: #999;
+    color: #55b384;
     transition: all 0.3s ease;
     pointer-events: none;
 }
 
 .input-group input:focus,
 .input-group.focused input {
-    border-bottom-color: #667eea;
+    border-bottom-color: #55b384;
 }
 
 .input-group input:focus+label,
 .input-group.focused label {
     top: -20px;
     font-size: 12px;
-    color: #667eea;
+    color: #55b384;
 }
 
 .login-button {
     width: 100%;
     padding: 12px;
-    background-color: #667eea;
+    background-color: #77ba95;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.4s;
 }
 
 .login-button:hover {
-    background-color: #5a67d8;
+    background-color: #287052;
 }
